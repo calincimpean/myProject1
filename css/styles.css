@@ -1,0 +1,162 @@
+body{
+    /* background-color: #262626; */
+}
+.header {
+    
+    height: 75px;
+    width: auto;
+    background-color: #262626;
+    /*z-index: 100;*/
+    
+    margin-top: px;
+    
+    
+}
+.logo1 {
+    float: left;
+    margin-top: -55px;
+    /* padding: 0 20px; */
+}
+.buybutton{
+    background-color: #82b440;
+    
+    color: white;
+    position: relative;
+    font-size: 16px;
+    font-family: "Jost", Sans-serif;
+    padding: 5px 20px;
+    line-height: 1.5;
+    display:inline-block;
+    border-radius: 5px;
+    float: right;
+    margin-top: -60px;
+    text-decoration: none;
+
+}
+.partea1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    justify-content:space-evenly;
+    list-style: none;
+    width: 800px ;
+    background-color: #142342;
+}
+.logo2{
+
+}
+.buynow{
+    background-color: #CFA670;;
+    
+    color: white;
+    font-weight: 600;
+    position: relative;
+    font-size: 16px;
+    font-family: "Jost", Sans-serif;
+    padding: 14px 30px 14px 30px;
+    line-height: 1.5;
+    display:inline-block;
+    border-radius:20px;
+    
+    text-decoration: none;
+
+}
+li{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 40px;
+    padding-inline-start: 40px;
+    color: white;
+    font-family: "Jost", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+#container1{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.scrismare{
+    color: rgb(255, 255, 255);
+    font-family: "Jost", Sans-serif;
+    font-size: 85px;
+    font-weight: 600;
+    line-height: 85px;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+}
+.scris2{
+    color: #ffffff;
+    font-family: "Jost", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.7em;
+    width: 1000px;
+    margin:0 auto;
+    text-align: center;
+    margin-top: -100px;
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+}
+.sectiune1{
+    background-color: #142342;
+}
+.imghotel{
+    margin-top: 100px;
+}
+img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  .scrismare2{
+    color: black;
+    font-family: "Jost", Sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    /* letter-spacing: 0px; */
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+.scrismic2{
+    color: #000000;
+    /* font-family: "Nothing You Could Do", Sans-serif; */
+    /* font-family: "Times New Roman", Times, serif; */
+    font-family: "Bradley Hand", Cursive;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-top: -30px;
+}
+.box1{
+    font-family: "Jost", Sans-serif;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.elementfelx{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    font-size: 18px;
+}
