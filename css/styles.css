@@ -1,21 +1,20 @@
 body{
-    /* background-color: #262626; */
+    
 }
 .header {
     
     height: 75px;
     width: auto;
     background-color: #262626;
-    /*z-index: 100;*/
     
-    margin-top: px;
+     margin-top: px;
     
     
 }
 .logo1 {
     float: left;
     margin-top: -55px;
-    /* padding: 0 20px; */
+    
 }
 .buybutton{
     background-color: #82b440;
@@ -31,6 +30,7 @@ body{
     float: right;
     margin-top: -60px;
     text-decoration: none;
+    margin-right: 10px;
 
 }
 .partea1{
@@ -46,8 +46,9 @@ body{
 
 }
 .buynow{
-    background-color: #CFA670;;
     
+    background-color: #CFA670;;
+    margin-right: 10px;
     color: white;
     font-weight: 600;
     position: relative;
@@ -101,9 +102,7 @@ li{
     margin:0 auto;
     text-align: center;
     margin-top: -100px;
-    /* display: flex;
-    align-items: center; 
-    justify-content: center; */
+    
 }
 .sectiune1{
     background-color: #142342;
@@ -121,7 +120,7 @@ img {
     font-family: "Jost", Sans-serif;
     font-size: 50px;
     font-weight: 600;
-    /* letter-spacing: 0px; */
+    
     
     display: flex;
     align-items: center; 
@@ -131,8 +130,7 @@ img {
 }
 .scrismic2{
     color: #000000;
-    /* font-family: "Nothing You Could Do", Sans-serif; */
-    /* font-family: "Times New Roman", Times, serif; */
+    
     font-family: "Bradley Hand", Cursive;
     font-style: italic;
     font-size: 24px;
@@ -161,3 +159,222 @@ img {
     font-size: 18px;
     /* aaaaaaa */
 }
+.sectiune3{
+    background-color: #f0f0f0;
+}
+.chenarAlb{
+    width: 275px;
+    height: 175px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    /* text-align: center; */
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  color:black;
+  
+  
+    
+}
+.marimepoza{
+    width: 200px;
+    height: 200px;
+}
+.a12poze{
+    /* display: flex; */
+    /* align-items: center; 
+    justify-content: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap; */
+    /* row-gap:55px; */
+    
+
+}
+.p1din4{
+    height: 550px;
+    width: 50%;
+    background-color: #142342;
+    color: #ffffff;
+    float: left;
+    display: block;
+}
+.scrismare3{
+    color: rgb(255, 255, 255);
+    font-family: "Jost", Sans-serif;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: left;
+    
+    padding-left: 60px;
+    
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    
+
+}
+.p2din4{
+    height: 550px;
+    width: 50%;
+    background-color:#e0e0e0;
+    color: #ffffff;
+    float: right;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.p4din4{
+    height: 700px;
+    width: 50%;
+    background-color:#f0f0f0;
+    color:#000000;
+    float: right;
+    /* width:470px;*/
+}
+.box3{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    justify-content: space-around;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    /* column-gap: 55px;
+    row-gap: 55px; */
+
+
+}
+.scris2a{
+    color: #ffffff;
+    font-family: "Jost", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7em;
+    
+    padding-left: 60px;
+    
+    margin:0 auto;
+    text-align: left;
+    
+    /* display: flex;
+    align-items: center; 
+    justify-content: center; */
+}
+.tick{
+    color: #CFA670;
+}
+.scris2ab{
+    color: black;
+    font-family: "Jost", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 1.7em;
+    
+    padding-left: 60px;
+    
+    margin:0 auto;
+    text-align: left;
+    
+}
+.link1{
+    color: #000000;
+    font-size: 27px;
+    font-weight: 600;
+    padding-left: 60px;
+    font-family: "Jost", Sans-serif;
+}
+.sectiune4{
+    background-color:#f0f0f0;
+}
+.sectiune5{
+    background-color:#fff;
+}
+.scris70px{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Jost", Sans-serif;
+}
+.scris2abc{
+    color: black;
+    font-family: "Jost", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7em;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.link2{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+.sectiune6{
+    background-color: #142342;
+}
+.scris70px2{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Jost", Sans-serif;
+    color: #ffffff;
+}
+.dolar{
+    color: #CFA670;
+    font-size: 32px;
+    font-family: "Jost", Sans-serif;
+}
+.scriscudolar{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+
+}
+.lista1{
+    font-size: 20px;
+    font-family: "Jost", Sans-serif;
+    color:#ffffff;
+    padding-left: 20px;
+    margin-left:20px;
+    text-align: left;
+}
+.parte1{
+    width: 50%;
+    height: 800px;
+    background-color:#f0f0f0;
+    color: black;
+    float: left;
+    display: block;
+}
+.parte2{
+    width: 50%;
+    height: 400px;
+    background-color:white;
+    color: black;
+    float:right;
+    display: block;
+
+}
+
+    
+    
+
+
+    
