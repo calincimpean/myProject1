@@ -23,6 +23,7 @@ html{
     float: left;
     margin-top: -55px;
     
+    
 }
 .buybutton{
     background-color: #82b440;
@@ -182,8 +183,7 @@ img {
     background-color: #f0f0f0;
 }
 .chenarAlb{
-    width: 275px;
-    height: 175px;
+    padding: 30px;
     background-color: #ffffff;
     border-radius: 25px;
     /* text-align: center; */
@@ -219,7 +219,8 @@ img {
 
 }
 .p1din4{
-    height: 550px;
+    /* height: 550px; */
+    max-height: 550px;
     width: 50%;
     background-color: #142342;
     color: #ffffff;
@@ -281,9 +282,9 @@ img {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.7em;
-    
-    padding-left: 60px;
-    
+    white-space: nowrap ;
+   
+    padding: 10px;
     margin:0 auto;
     text-align: left;
     
@@ -481,7 +482,7 @@ h3.scris2ab{
 }
 .imgtelefon{
     background-color: #142342;
-    height: 700px;
+    
     padding-bottom: 60px;
     display: flex;
     justify-content: flex-start;
@@ -507,7 +508,7 @@ h3.scris2ab{
     font-size: 27px;
     font-weight: 600;
     padding: 60px;
-    
+    white-space: nowrap;
     font-family: "Jost", Sans-serif;
 }
 .langapozaoameni{
@@ -578,7 +579,7 @@ h3.scris2ab{
     background-color: #142342;
     border-radius: 25px;
     width: 80%;
-    height: 700px;
+    min-height: 700px;
     margin: 0 auto;
     margin-top: -200px;
     
@@ -651,6 +652,7 @@ h3.scris2ab{
 .imgaa{
     
     size: 1vh;
+    padding: 10px;
 }
 .bgcolorb{
     background-color: #142342;
@@ -659,4 +661,14 @@ h3.scris2ab{
 .maxw{
     min-width: 155px;
     min-height: 45px;
+}
+@media (max-width: 965px){.buynow, .maxw, .scris2a, .scris2ab
+{
+ display:none
+}
+}
+@media (max-width: 965px){
+    .p2din4{
+        height: 461.22px;
+    }
 }
